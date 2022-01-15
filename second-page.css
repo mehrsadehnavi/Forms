@@ -1,0 +1,58 @@
+html {
+    background: rgb(174,230,238);
+    background: linear-gradient(90deg, rgba(174,230,238,1) 0%, rgba(129,146,223,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    margin: 15% auto;
+}
+
+h1 {
+    text-align: center;
+    color: #360064;
+    text-shadow: 2px 2px 5px #303030;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    background: rgb(174,230,238);
+    background: linear-gradient(90deg, rgba(174,230,238,1) 0%, rgba(129,146,223,1) 100%);
+    box-shadow: 2px 2px 10px #303030;
+}
+
+input[type=date] {
+    background-color: #35006454;
+    border: 1px solid;
+    margin-bottom: 20%;
+    margin-top: 25%;
+}
+
+input[type=submit], input[type=reset] {
+    border: 1px solid;
+    background: rgb(120,94,180);
+    background: linear-gradient(90deg, rgba(120,94,180,1) 0%, rgba(218,33,195,1) 100%);
+    height: 25px;
+    width: 70px;
+    cursor:pointer;
+    margin-bottom: 5%;
+    margin-top: 15%;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=date]:hover {
+    font-weight: bold;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+#back {
+    text-decoration: none;
+    color: #360064;
+    font-size: smaller;
+}

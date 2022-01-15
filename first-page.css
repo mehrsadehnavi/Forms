@@ -1,0 +1,62 @@
+html {
+    background: rgb(174,230,238);
+    background: linear-gradient(90deg, rgba(174,230,238,1) 0%, rgba(129,146,223,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    margin: 15% auto;
+}
+
+h1 {
+    text-align: center;
+    color: #360064;
+    text-shadow: 2px 2px 5px #303030;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    background: rgb(174,230,238);
+    background: linear-gradient(90deg, rgba(174,230,238,1) 0%, rgba(129,146,223,1) 100%);
+    box-shadow: 2px 2px 10px #303030;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=submit]{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: azure;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #302f2f;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 70%;
+    height: 5%;
+}
+
+input[type=submit] {
+    color: black;
+    background: rgb(120,94,180);
+    background: linear-gradient(90deg, rgba(120,94,180,1) 0%, rgba(218,33,195,1) 100%);
+    height: 35px;
+    width: 85px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    font-weight: bold;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+
